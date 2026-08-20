@@ -1,8 +1,6 @@
 {
   "buildCommand": "echo 'Static site'",
   "outputDirectory": ".",
-  "framework": "static",
-  "env": {},
   "headers": [
     {
       "source": "/index.html",
