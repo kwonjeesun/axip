@@ -1,23 +1,5 @@
 {
-  "buildCommand": "echo 'Static site'",
-  "outputDirectory": "./",
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600"
-        }
-      ]
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/:path*",
-      "destination": "/index.html"
-    }
-  ]
+  "buildCommand": "echo Building",
+  "outputDirectory": ".",
+  "installCommand": "echo Installing"
 }
